@@ -28,7 +28,7 @@ resource "signalfx_dashboard" "mydashboard0" {
   variable {
     property = "region"
     alias    = "region"
-    values   = ["uswest-1-"]
+    values   = ["us-west-1"]
   }
   chart {
     chart_id = signalfx_time_chart.mychart0.id
